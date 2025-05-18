@@ -15,10 +15,37 @@ This project analyzes nearly 10,000 orders placed between 2014 and 2017 at a U.S
 - **Promotion Effectiveness:** Impact of discounts on volume lift and margin erosion.
     
 - **Shipping & Fulfillment Costs:** Profitability analysis by shipping mode.
+
+## Data Structure Overview
+
+The database consists of a single table with detailed information on every order. Each record captures order identifiers, dates, customer segment, product category, geography, shipping details, and financial metrics.
+
+| Column Name   | Type    | Description                                                      |
+| ------------- | ------- | ---------------------------------------------------------------- |
+| Order ID      | String  | Unique identifier for each order                                 |
+| Order Date    | Date    | Date when the order was placed                                   |
+| Ship Date     | Date    | Date when the order was shipped                                  |
+| Customer Name | String  | Name on the customer’s billing account                           |
+| Segment       | String  | Customer segment: Consumer, Corporate, or Home Office            |
+| Product Name  | String  | Name of the product sold                                         |
+| Category      | String  | High‑level product group: Technology, Office Supplies, Furniture |
+| Sub‑Category  | String  | More specific product line within each category                  |
+| Sales         | Float   | Total dollar amount of the order                                 |
+| Profit        | Float   | Dollar profit earned on the order                                |
+| Quantity      | Integer | Number of units sold in the order                                |
+| Discount      | Float   | Dollar amount discounted off the list price                      |
+| Region        | String  | Business region (East, West, Central, South)                     |
+| State         | String  | U.S. state where the order was shipped                           |
+| Ship Mode     | String  | Delivery method used (Standard, First Class, Same Day, etc.)     |
+
+
+## Executive Summary
+
+From 2014–2017, 9,994 orders generated $2.29 M in sales, though widespread discounts on over half of transactions squeezed overall profit margins. The Home Office segment delivered the highest profit per order ($33.82), while Technology products accounted for 36.5% of revenue at a 17.4% margin. Expedited shipping options (First Class, Same Day) trimmed profits by up to 8%, and sales consistently peaked in November and December—prime windows for targeted promotions.
+
 ![Dashboard](Data/Dashboard.png)
 
-## Problem statement
-Retail teams often spend hours manually merging regional sales files, cleaning errors, and updating reports, delaying insights and risking mistakes. This project builds an automated Excel dashboard that eases data ingestion, cleaning, and visualization so business users can spot trends and act on them quickly.
+
 
 ## How to Use
 1. Open `Dashboard.xlsx`.  
