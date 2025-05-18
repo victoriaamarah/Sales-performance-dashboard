@@ -1,6 +1,18 @@
-# Sales performance dashboard
-A sales performance dashboard built in Excel to visualize revenue trends, top-selling products, and regional performance.
+This project analyzes nearly 10,000 orders placed between 2014 and 2017 at a U.S. retailer of Technology, Office Supplies, and Furniture. Our objective is to uncover critical insights and recommendations across the business’s core drivers.
 
+**Key Analysis Areas:**
+
+- **Sales Trends Analysis:** Historical sales patterns, seasonal peaks, and volume fluctuations.
+    
+- **Product-Level Performance:** Revenue and margin comparisons across Technology, Office Supplies, and Furniture.
+    
+- **Customer Segment Profitability:** Profit contributions for Consumer, Corporate, and Home Office channels.
+    
+- **Regional & State Benchmarks:** Identification of top- and under-performing regions against national averages.
+    
+- **Promotion Effectiveness:** Impact of discounts on volume lift and margin erosion.
+    
+- **Shipping & Fulfillment Costs:** Profitability analysis by shipping mode.
 ![Dashboard](Data/Dashboard.png)
 
 ## Problem statement
