@@ -1,3 +1,5 @@
+
+## Project background
 This project analyzes nearly 10,000 orders placed between 2014 and 2017 at a U.S. retailer of Technology, Office Supplies, and Furniture. Our objective is to uncover critical insights and recommendations across the business’s core drivers.
 
 **Key Analysis Areas:**
