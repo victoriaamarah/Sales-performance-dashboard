@@ -16,8 +16,8 @@ This project analyzes nearly 10,000 orders placed between 2014 and 2017 at a U.S
     
 - **Shipping & Fulfillment Costs:** Profitability analysis by shipping mode.
 
-## Data Structure Overview
 
+## Data Structure Overview
 The database consists of a single table with detailed information on every order. Each record captures order identifiers, dates, customer segment, product category, geography, shipping details, and financial metrics.
 
 | Column Name   | Type    | Description                                                      |
@@ -40,12 +40,21 @@ The database consists of a single table with detailed information on every order
 
 
 ## Executive Summary
-
 From 2014–2017, 9,994 orders generated $2.29 M in sales, though widespread discounts on over half of transactions squeezed overall profit margins. The Home Office segment delivered the highest profit per order ($33.82), while Technology products accounted for 36.5% of revenue at a 17.4% margin. Expedited shipping options (First Class, Same Day) trimmed profits by up to 8%, and sales consistently peaked in November and December—prime windows for targeted promotions.
 
 ![Dashboard](Data/Dashboard.png)
 
-
+**Customer Profitability:** Home Office $33.82 vs. Corporate $30.46 vs. Consumer $25.84. Corporate grew 12% in 2017 vs. 2016.
+    
+- **Promotion ROI:** Discounted orders spiked +20% volume in Nov–Dec but shrank margins from 15% to –2.9%.
+    
+- **Geographic Spread:** CA/NY/TX contributed 42% of total sales; ND/WV/ME <1%. Year‑over‑year CA grew 18%.
+    
+- **Product Mix:** Tech 36.5% revenue (17.4% margin), Supplies 31.3% (17.0%), Furniture 32.2% (2.5%). Furniture margin fell 30% in Q3 2016.
+    
+- **Logistics Impact:** Same Day orders held 12.5% margin vs. Standard Class at 12.1%, yet cost-per-order is 5% higher.
+    
+- **Seasonality:** Monthly peaks: Nov ($352K), Dec ($325K), Sep ($308K). Off‑peak Feb lows at $175K.
 
 ## How to Use
 1. Open `Dashboard.xlsx`.  
