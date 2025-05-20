@@ -1,4 +1,3 @@
-
 ## Project background
 This project analyzes nearly 10,000 orders placed between 2014 and 2017 at a U.S. retailer of Technology, Office Supplies, and Furniture. Our objective is to uncover critical insights and recommendations across the business’s core drivers.
 
@@ -55,6 +54,19 @@ From 2014–2017, 9,994 orders generated $2.29 M in sales, though widespread d
 - **Logistics Impact:** Same Day orders held 12.5% margin vs. Standard Class at 12.1%, yet cost-per-order is 5% higher.
     
 - **Seasonality:** Monthly peaks: Nov ($352K), Dec ($325K), Sep ($308K). Off‑peak Feb lows at $175K.
+
+## Recommendations
+Based on the findings from this project, the following actions are recommended:
+
+- **Rethink blanket discounts:** With over 50% of orders including discounts and many of those turning a negative price cuts are doing more harm than good. Instead, shift to smart, seasonal or loyalty-based promotions that reward repeat customers and preserve margin.
+    
+- **Lean into Home Office and Corporate segments:** These customer groups consistently deliver stronger profits per order. Tailored offers, membership perks, or upsell bundles could encourage more frequent and larger purchases.
+    
+- **Invest in regional outreach:** California, New York, and Texas are clear strongholds. Maintain momentum in these states while testing low-cost, localized strategies in underperforming regions like North Dakota or West Virginia.
+    
+- **Simplify the product line:** Technology brings in both volume and margin, while Furniture lags behind. Reduce emphasis on low-margin SKUs and focus on bundling bestsellers to improve order size and return.
+    
+- **Rebalance shipping cost vs. experience:** Same Day and First Class delivery modes cut deep into profits. To keep them viable, introduce flat-rate fees or only offer them above a set order threshold.
 
 ## How to Use
 1. Open `Dashboard.xlsx`.  
