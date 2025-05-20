@@ -43,7 +43,7 @@ From 2014–2017, 9,994 orders generated $2.29 M in sales, though widespread d
 
 ![Dashboard](Data/Dashboard.png)
 
-**Customer Profitability:** Home Office $33.82 vs. Corporate $30.46 vs. Consumer $25.84. Corporate grew 12% in 2017 vs. 2016.
+- **Customer Profitability:** Home Office $33.82 vs. Corporate $30.46 vs. Consumer $25.84. Corporate grew 12% in 2017 vs. 2016.
     
 - **Promotion ROI:** Discounted orders spiked +20% volume in Nov–Dec but shrank margins from 15% to –2.9%.
     
